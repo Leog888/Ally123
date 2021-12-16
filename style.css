@@ -1,9 +1,47 @@
 body {
     color:red;
     background-color: black;
+    resize:both
 
 }
 
 header {
  font-family: Cinzel Decorative;
+ text-align: center;
+ width: auto;
+ height: 150px, auto;
+ margin: auto;
+
 }
+
+h1 {
+    font-weight: 700;
+
+}
+
+#myName {
+    font-size: 60px;
+}
+
+#aboutMe {
+    font-size: 24px;
+    text-align: center;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#socialMedia {
+    font-size: 24px;
+    text-align: center;
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
