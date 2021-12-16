@@ -44,4 +44,32 @@ h1 {
     align-items: center;
 }
 
- 
+@media (max-width: 576px) {
+    h3{
+        font-size: 24px;
+    }
+
+    #aboutMe{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }
+
+    #socialMedia{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+    }
+
+    #aboutMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+}
