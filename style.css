@@ -1,6 +1,6 @@
 body {
-    color:red;
-    background-color: black;
+    color:whitesmoke;
+    background-color: lightpink;
     resize:both
 
 }
@@ -9,19 +9,29 @@ header {
  font-family: Cinzel Decorative;
  text-align: center;
  width: auto;
- height: 150px, auto;
- margin: auto;
+ height: 300px, auto;
+ margin: 30px;
 
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: 800;
+    font-size: 55px;
+    
+    
 
+}
+
+h3 {
+    text-align: center;
+    font-size: 45px;
 }
 
 #myName {
-    font-size: 60px;
+    font-size: 120px;
 }
+
+
 
 #aboutMe {
     font-size: 24px;
@@ -35,13 +45,24 @@ h1 {
 
 #socialMedia {
     font-size: 24px;
-    text-align: center;
     width: 100vw;
     height: 800px;
-    display: flex;
+    display:inline;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+img {
+   height: 100px;
+   width: 100px;
+   margin-top: 15px;
+}
+
+footer {
+    height: 300px;
+    width: 300px;
+    margin-top: 15px; 
 }
 
 @media (max-width: 576px) {
